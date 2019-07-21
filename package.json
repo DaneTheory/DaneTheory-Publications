@@ -1,10 +1,15 @@
 {
   "name": "@danetheory/danetheory-publications",
   "version": "1.0.0",
-  "description": "writtings and ramblings get handled by this savage app.",
+  "description": "The writtings/ramblings of a lunatic are handled by this savage app",
   "main": "index.js",
   "repository": "https://github.com/DaneTheory/DaneTheory-Publications.git",
-  "author": "Branden Dane",
+  "author": "Branden Dane <DaneTheory@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
