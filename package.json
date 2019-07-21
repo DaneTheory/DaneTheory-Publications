@@ -1,0 +1,10 @@
+{
+  "name": "@danetheory/danetheory-publications",
+  "version": "1.0.0",
+  "description": "writtings and ramblings get handled by this savage app.",
+  "main": "index.js",
+  "repository": "https://github.com/DaneTheory/DaneTheory-Publications.git",
+  "author": "Branden Dane",
+  "license": "MIT",
+  "private": false
+}
