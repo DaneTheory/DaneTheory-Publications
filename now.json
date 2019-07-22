@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "name": "danetheory-publications",
+  "scope": "danetheory",
+  "alias": [
+    "danetheory-publications.now.sh",
+    "staging.danetheory.com",
+    "publications.danetheory.com"
+  ],
+  "github": {
+    "enabled": true,
+    "autoAlias": true,
+    "silent": false
+  },
+  "build": {
+    "env": {
+      "STORYBLOK_API_TOKEN": "@storyblok_api_token"
+    }
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)" }
+  ]
+}

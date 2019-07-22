@@ -7,6 +7,18 @@
   "author": "Branden Dane <DaneTheory@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "now-dev": "now dev",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export",
+    "now-build": "yarn build && yarn export",
+    "now-export": "now export",
+    "deploy:dev": "now --taget development",
+    "deploy:staging": "now --target staging",
+    "deploy:prod": "now --target production"
+  },
   "dependencies": {
     "next": "^9.0.2",
     "react": "^16.8.6",
